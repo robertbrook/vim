@@ -11,7 +11,7 @@ VIMEXE = vim
 
 # include the config.mk from the source directory.  It's only needed to set
 # AWK, used for "make html".  Comment this out if the include gives problems.
-include ../../src/auto/config.mk
+# include ../../src/auto/config.mk
 
 DOCS = \
 	arabic.txt \
