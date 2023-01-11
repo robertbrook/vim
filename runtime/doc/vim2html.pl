@@ -84,10 +84,13 @@ sub vim2html
 	my $head = uc( $outfile );
 
 	print OUT<<EOF;
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!doctype html>
 <html>
 <head>
 <title>VIM: $outfile</title>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="date=no" />
+<meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" href="vim-stylesheet.css" type="text/css">
 </head>
 <body>
