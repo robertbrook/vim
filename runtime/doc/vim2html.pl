@@ -94,7 +94,7 @@ sub vim2html
 <link rel="stylesheet" href="vim-stylesheet.css" type="text/css">
 </head>
 <body>
-<h2>$head</h2>
+<h1>$head</h1>
 <pre>
 EOF
 
@@ -189,12 +189,7 @@ sub writeCSS
 {
 	open( CSS, ">vim-stylesheet.css"  ) || die "Couldn't write stylesheet: $!\n";
 	print CSS<<EOF;
-body { background-color: white; color: black;}
-:link { color: rgb(0,137,139); }
-:visited { color: rgb(0,100,100);
-           background-color: white; /* should be inherit */ }
-:active { color: rgb(0,200,200);
-          background-color: white; /* should be inherit */ }
+body { background-color: white; color: black;font-family:system-ui;padding: 0.3rem; max-width: 36rem;line-height:1.4;font-size:1.2rem;}
 
 B.vimtag { color : rgb(250,0,250); }
 
