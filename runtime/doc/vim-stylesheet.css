@@ -1,0 +1,18 @@
+body { background-color: white; color: black;font-family:system-ui;padding: 0.3rem; max-width: 36rem;line-height:1.4;font-size:1.2rem;}
+
+B.vimtag { color : rgb(250,0,250); }
+
+h1, h2 { color: rgb(82,80,82); text-align: center; }
+h3, h4, h5, h6 { color: rgb(82,80,82); }
+.headline { color: rgb(0,137,139); }
+.header { color: rgb(164, 32, 246); }
+.section { color: rgb(164, 32, 246); }
+.keystroke { color: rgb(106, 89, 205); }
+.vim { }
+.example { color: rgb(0, 0, 255); }
+.option { }
+.notvi { }
+.special { color: rgb(106, 89, 205); }
+.note { color: blue; background-color: yellow; }
+.sub {}
+.badlink { color: rgb(0,37,39); }
